@@ -1,0 +1,94 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint & type check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # TODO: Installation
+      - name: Install dependencies
+        run: echo "::notice::[stub] dependencies installed"
+
+      # TODO: Ruff check
+      - name: Ruff
+        run: echo "::notice::[stub] ruff check . -> 0 issues"
+
+      # TODO: Execution
+      - name: Mypy
+        run: 'echo "::notice::[stub] mypy src -> Success: no issues found"'
+
+  test:
+    name: Tests (py${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    needs: lint
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # TODO: Installation 
+      - name: Install dependencies
+        run: echo "::notice::[stub] dependencies installed for ${{ matrix.python-version }}"
+
+      # TODO: `pytest -q --junitxml=reports/junit.xml`
+      - name: Run unit tests
+        run: |
+          mkdir -p reports
+          echo "[stub] pytest -q" | tee reports/pytest.log
+          echo "collected 0 items / 0 passed" >> reports/pytest.log
+
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-report-py${{ matrix.python-version }}
+          path: reports/
+          retention-days: 7
+          if-no-files-found: ignore
+
+  summary:
+    name: CI summary
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    if: always()
+    steps:
+      - name: Write job summary
+        run: |
+          {
+            echo "## CI summary"
+            echo ""
+            echo "| Stage | Status |"
+            echo "| --- | --- |"
+            echo "| Lint & type check | ${{ needs.lint.result }} |"
+            echo "| Tests | ${{ needs.test.result }} |"
+            echo ""
+            echo "_Pipeline scaffold — steps are placeholders until the harness lands._"
+          } >> "$GITHUB_STEP_SUMMARY"
