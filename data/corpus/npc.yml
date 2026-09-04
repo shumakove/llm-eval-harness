@@ -1,0 +1,450 @@
+- id: npc.magister_jordan.origin
+  entity: magister_jordan
+  topic: origin_story
+  text: >
+    Jordan is the high magister of Dion. He was born in Caplin and lost his parents to the Black Knight Guild. He has sworn to uncover who ordered the attack.
+
+- id: npc.magister_jordan.quest_log
+  entity: magister_jordan
+  topic: quest_log
+  text: >
+    Find the Black Knight spy in our camp. Do not confront the spy until you learn who receives their messages.
+
+- id: npc.magister_jordan.speech
+  entity: magister_jordan
+  topic: speech
+  text: >
+    The Black Knights did not burn Caplin for gold. They were looking for a name hidden in my father's journal.
+
+- id: npc.magister_jordan.origin_clue
+  entity: magister_jordan
+  topic: origin_story
+  text: >
+    Jordan remembers a silver raven seal on the killers' cloaks. Priest Eva saw the same seal in the old chapel.
+
+- id: npc.magister_drumor.origin
+  entity: magister_drumor
+  topic: origin_story
+  text: >
+    Drumor came from a village destroyed by elves, or so the survivors claim. He repeats the story but has never seen an elven blade.
+
+- id: npc.magister_drumor.quest_log
+  entity: magister_drumor
+  topic: quest_log
+  text: >
+    Compare the ash found near Caplin with the ash from the ruined elven watchtower. Someone wants the two attacks confused.
+
+- id: npc.magister_drumor.speech
+  entity: magister_drumor
+  topic: speech
+  text: >
+    Rumors travel faster than horses, and the Black Knights know how to ride both. Ask Lysa who paid for the first rumor.
+
+- id: npc.magister_drumor.origin_clue
+  entity: magister_drumor
+  topic: origin_story
+  text: >
+    Drumor once carried letters for Captain Veyr. He stopped when Veyr's letters began naming the Ashen Hand.
+
+- id: npc.guardian_litrek.origin
+  entity: guardian_litrek
+  topic: origin_story
+  text: >
+    Litrek was born in Dion and joined the warrior guild as a child. He became a gate guardian after defending the eastern road from murlocs.
+
+- id: npc.guardian_litrek.quest_log
+  entity: guardian_litrek
+  topic: quest_log
+  text: >
+    Track the murlocs that stole Moontear leaves from the river shrine. Bring back their carved bone tokens.
+
+- id: npc.guardian_litrek.speech
+  entity: guardian_litrek
+  topic: speech
+  text: >
+    Murlocs are frightened, not mindless. Their chief keeps repeating the name Veyr.
+
+- id: npc.guardian_litrek.origin_clue
+  entity: guardian_litrek
+  topic: origin_story
+  text: >
+    Litrek found a silver raven seal on a dead smuggler near the east gate. He gave it to Jordan instead of the city watch.
+
+- id: npc.priest_eva.origin
+  entity: priest_eva
+  topic: origin_story
+  text: >
+    Eva served at the river chapel before it was abandoned. She returned after the Moontear tree bloomed black.
+
+- id: npc.priest_eva.quest_log
+  entity: priest_eva
+  topic: quest_log
+  text: >
+    Bring fifteen leaves from the Moontear tree. Do not cut the branch, because the tree is sheltering an injured child.
+
+- id: npc.priest_eva.speech
+  entity: priest_eva
+  topic: speech
+  text: >
+    I saw the raven seal in Captain Veyr's prayer book. He said it belonged to a harmless courier.
+
+- id: npc.priest_eva.origin_clue
+  entity: priest_eva
+  topic: origin_story
+  text: >
+    Eva believes the tree turned black when the Ashen Hand buried a weapon beneath the chapel. The roots now point toward Caplin.
+
+- id: npc.guardian_arden.origin
+  entity: guardian_arden
+  topic: origin_story
+  text: >
+    Arden guarded the northern bridge until a masked patrol ordered him away. The patrol wore Black Knight colors but no city insignia.
+
+- id: npc.guardian_arden.quest_log
+  entity: guardian_arden
+  topic: quest_log
+  text: >
+    Inspect the northern bridge stones and find where the masked patrol hid its supply chest. Return before the next moonrise.
+
+- id: npc.guardian_arden.speech
+  entity: guardian_arden
+  topic: speech
+  text: >
+    Captain Veyr crossed the bridge three nights before Caplin burned. He was traveling with a child in a red cloak.
+
+- id: npc.guardian_arden.origin_clue
+  entity: guardian_arden
+  topic: origin_story
+  text: >
+    Arden remembers Lysa arguing with Veyr beside the bridge. She called him a traitor to the Ashen Hand.
+
+- id: npc.guardian_mira.origin
+  entity: guardian_mira
+  topic: origin_story
+  text: >
+    Mira grew up among ferrymen on the Dion river. She joined the guardians after murlocs dragged her brother beneath the reeds.
+
+- id: npc.guardian_mira.quest_log
+  entity: guardian_mira
+  topic: quest_log
+  text: >
+    Escort the Moontear children to the chapel and keep the river path clear. Someone has placed Black Knight markers along it.
+
+- id: npc.guardian_mira.speech
+  entity: guardian_mira
+  topic: speech
+  text: >
+    The murloc chief returned my brother's knife. It had a raven seal scratched into the handle.
+
+- id: npc.guardian_mira.origin_clue
+  entity: guardian_mira
+  topic: origin_story
+  text: >
+    Mira saw a hooded woman meeting Drumor by the ferry. The woman carried letters stamped with Captain Veyr's mark.
+
+- id: npc.guardian_tomas.origin
+  entity: guardian_tomas
+  topic: origin_story
+  text: >
+    Tomas was a caravan guard from Caplin. He survived the fire by hiding beneath a grain cart and still carries its burned wheel pin.
+
+- id: npc.guardian_tomas.quest_log
+  entity: guardian_tomas
+  topic: quest_log
+  text: >
+    Follow the old caravan road and recover the black iron key seen among the ruins. Jordan believes it opens the Ashen Hand vault.
+
+- id: npc.guardian_tomas.speech
+  entity: guardian_tomas
+  topic: speech
+  text: >
+    The attackers called for a child named Nera. They ignored every chest and searched only the chapel bell.
+
+- id: npc.guardian_tomas.origin_clue
+  entity: guardian_tomas
+  topic: origin_story
+  text: >
+    Tomas saw Lysa rescue Nera from the chapel. He thought Lysa was an elf because of her silver eyes.
+
+- id: npc.priest_lysa.origin
+  entity: priest_lysa
+  topic: origin_story
+  text: >
+    Lysa was raised by the eastern elves and learned human rites from Eva. She came to Dion to stop the false war between their peoples.
+
+- id: npc.priest_lysa.quest_log
+  entity: priest_lysa
+  topic: quest_log
+  text: >
+    Deliver Eva's ash samples to the elven watchtower. Ask the tower keeper whether the fire began inside or outside the walls.
+
+- id: npc.priest_lysa.speech
+  entity: priest_lysa
+  topic: speech
+  text: >
+    The elves did not destroy the village. The same silver oil burned Caplin and the watchtower.
+
+- id: npc.priest_lysa.origin_clue
+  entity: priest_lysa
+  topic: origin_story
+  text: >
+    Lysa knows the Ashen Hand as a human cult that sells protection to frightened towns. Captain Veyr once served as its collector.
+
+- id: npc.priest_narek.origin
+  entity: priest_narek
+  topic: origin_story
+  text: >
+    Narek tends the shrine beneath Dion's market. He learned to read old clan marks from his grandmother, a keeper of forbidden records.
+
+- id: npc.priest_narek.quest_log
+  entity: priest_narek
+  topic: quest_log
+  text: >
+    Translate the mark on the black iron key. The answer may identify which clan financed the Ashen Hand.
+
+- id: npc.priest_narek.speech
+  entity: priest_narek
+  topic: speech
+  text: >
+    The raven is not the Ashen Hand's symbol. It is the mark of the old Veyr clan, which vanished after the border war.
+
+- id: npc.priest_narek.origin_clue
+  entity: priest_narek
+  topic: origin_story
+  text: >
+    Narek found Veyr clan records hidden under the market shrine. One page mentions a child named Nera.
+
+- id: npc.priest_sela.origin
+  entity: priest_sela
+  topic: origin_story
+  text: >
+    Sela cared for refugees after Caplin fell. She remembers Nera refusing to speak whenever someone mentioned the bell.
+
+- id: npc.priest_sela.quest_log
+  entity: priest_sela
+  topic: quest_log
+  text: >
+    Ask the refugees which caravan carried Nera toward Dion. Record every witness before the Ashen Hand finds them.
+
+- id: npc.priest_sela.speech
+  entity: priest_sela
+  topic: speech
+  text: >
+    Nera gave me a bell clapper with the Veyr raven carved into it. She said it belonged to her father.
+
+- id: npc.priest_sela.origin_clue
+  entity: priest_sela
+  topic: origin_story
+  text: >
+    Sela believes Captain Veyr was Nera's father. He may have betrayed the Ashen Hand to save her.
+
+- id: npc.citizen_joren.origin
+  entity: citizen_joren
+  topic: origin_story
+  text: >
+    Joren repairs carts near Dion's west gate. His family traded grain with Caplin before the road was closed.
+
+- id: npc.citizen_joren.quest_log
+  entity: citizen_joren
+  topic: quest_log
+  text: >
+    Search the burned caravan yard for a wheel pin stamped with the Veyr raven. Joren will pay in food, not coin.
+
+- id: npc.citizen_joren.speech
+  entity: citizen_joren
+  topic: speech
+  text: >
+    A Black Knight bought three empty grain carts the day before the fire. The carts returned full of chapel bells.
+
+- id: npc.citizen_joren.origin_clue
+  entity: citizen_joren
+  topic: origin_story
+  text: >
+    Joren sold one cart to Drumor's courier. The courier carried a letter addressed to Lysa.
+
+- id: npc.citizen_mara.origin
+  entity: citizen_mara
+  topic: origin_story
+  text: >
+    Mara runs the tea stall beside the market shrine. She remembers every traveler who asks about the old Veyr clan.
+
+- id: npc.citizen_mara.quest_log
+  entity: citizen_mara
+  topic: quest_log
+  text: >
+    Find the customer who left a black iron key under Mara's counter. He paid with a coin melted on one side.
+
+- id: npc.citizen_mara.speech
+  entity: citizen_mara
+  topic: speech
+  text: >
+    The key customer had Captain Veyr's scar and smelled of silver oil. He asked whether Nera was safe.
+
+- id: npc.citizen_mara.origin_clue
+  entity: citizen_mara
+  topic: origin_story
+  text: >
+    Mara sent the customer toward the river chapel after seeing Litrek enter the market. She fears she was followed.
+
+- id: npc.citizen_bram.origin
+  entity: citizen_bram
+  topic: origin_story
+  text: >
+    Bram is a bellmaker whose workshop survived the Caplin fire. He claims the missing chapel bell was cast from Veyr clan metal.
+
+- id: npc.citizen_bram.quest_log
+  entity: citizen_bram
+  topic: quest_log
+  text: >
+    Compare the chapel bell fragments with Bram's old molds. A hidden compartment may contain the name Jordan seeks.
+
+- id: npc.citizen_bram.speech
+  entity: citizen_bram
+  topic: speech
+  text: >
+    The bell was never meant to ring. Its clapper was a key, and someone removed it before the attack.
+
+- id: npc.citizen_bram.origin_clue
+  entity: citizen_bram
+  topic: origin_story
+  text: >
+    Bram made the clapper for Captain Veyr's father. He remembers Nera hiding beneath the bell frame.
+
+- id: npc.citizen_olwen.origin
+  entity: citizen_olwen
+  topic: origin_story
+  text: >
+    Olwen keeps the city archives and distrusts heroic stories. She found Caplin's census missing the Veyr family page.
+
+- id: npc.citizen_olwen.quest_log
+  entity: citizen_olwen
+  topic: quest_log
+  text: >
+    Recover the missing census page from the abandoned guardhouse. Olwen thinks Drumor removed it years ago.
+
+- id: npc.citizen_olwen.speech
+  entity: citizen_olwen
+  topic: speech
+  text: >
+    The Veyr clan did not vanish. One member became Captain Veyr, and one child was registered under the name Nera.
+
+- id: npc.citizen_olwen.origin_clue
+  entity: citizen_olwen
+  topic: origin_story
+  text: >
+    Olwen once saw the silver raven seal in Jordan's father's journal. The missing page lists the same seal as a witness mark.
+
+- id: npc.citizen_kell.origin
+  entity: citizen_kell
+  topic: origin_story
+  text: >
+    Kell sells maps near the east gate and drew the road to the elven watchtower. His old map shows a tunnel beneath Caplin.
+
+- id: npc.citizen_kell.quest_log
+  entity: citizen_kell
+  topic: quest_log
+  text: >
+    Map the tunnel entrance before the next rain. Kell suspects the Ashen Hand used it to move silver oil and weapons.
+
+- id: npc.citizen_kell.speech
+  entity: citizen_kell
+  topic: speech
+  text: >
+    Captain Veyr paid for the tunnel map, then crossed out the route to the chapel. He did not want the child to find it.
+
+- id: npc.citizen_kell.origin_clue
+  entity: citizen_kell
+  topic: origin_story
+  text: >
+    Kell's apprentice is the hooded courier seen by Mira. The apprentice says Lysa gave her the first warning.
+
+- id: npc.citizen_nela.origin
+  entity: citizen_nela
+  topic: origin_story
+  text: >
+    Nela gathers herbs near the river and knows which Moontear leaves are safe. Murlocs leave offerings at her doorstep.
+
+- id: npc.citizen_nela.quest_log
+  entity: citizen_nela
+  topic: quest_log
+  text: >
+    Collect the murloc offerings and bring them to Eva. Their bone tokens may show where the stolen leaves were taken.
+
+- id: npc.citizen_nela.speech
+  entity: citizen_nela
+  topic: speech
+  text: >
+    The murlocs fear the black-robed men more than the guardians. They saw those men carry a child toward the tunnel.
+
+- id: npc.citizen_nela.origin_clue
+  entity: citizen_nela
+  topic: origin_story
+  text: >
+    Nela found silver oil on a Moontear root. It flowed from the direction of the old Veyr burial ground.
+
+- id: npc.murloc.speech
+  entity: murloc
+  topic: speech
+  text: >
+    Dont kill me! Black men take leaves and child. Raven mark on boat.
+
+- id: npc.murloc.origin_story
+  entity: murloc
+  topic: origin_story
+  text: >
+    The murloc tribe lived beside the river before the Moontear chapel was built. Their chief remembers Captain Veyr leaving food for them.
+
+- id: npc.murloc.quest_log
+  entity: murloc
+  topic: quest_log
+  text: >
+    Return the stolen Moontear leaves and the tribe will show the hidden river tunnel. Do not bring Black Knight soldiers.
+
+- id: npc.guardian_litrek.origin_memory
+  entity: guardian_litrek
+  topic: origin_story
+  text: >
+    Litrek remembers Nera hiding in a grain cart on the night she reached Dion. The cart bore Joren's burned wheel pin.
+
+- id: npc.guardian_litrek.quest_watch
+  entity: guardian_litrek
+  topic: quest_log
+  text: >
+    Watch the east gate for a courier carrying a raven letter. Send the courier to Jordan if the seal is broken.
+
+- id: npc.priest_eva.origin_memory
+  entity: priest_eva
+  topic: origin_story
+  text: >
+    Eva met Captain Veyr once at the river chapel. He asked her to protect a child from the Ashen Hand.
+
+- id: npc.priest_eva.quest_watch
+  entity: priest_eva
+  topic: quest_log
+  text: >
+    Ask Narek to read the Veyr mark beneath the chapel altar. The answer should reveal where Veyr hid the child.
+
+- id: npc.citizen_olwen.origin_memory
+  entity: citizen_olwen
+  topic: origin_story
+  text: >
+    Olwen saw the Veyr census page in Captain Veyr's hands before Caplin burned. He returned it covered in ash.
+
+- id: npc.citizen_olwen.quest_archive
+  entity: citizen_olwen
+  topic: quest_log
+  text: >
+    Match the missing census page to Narek's clan records. Do not let Drumor learn that the page has been found.
+
+- id: npc.citizen_mara.origin_memory
+  entity: citizen_mara
+  topic: origin_story
+  text: >
+    Mara's father served tea to the Ashen Hand collectors. He kept their melted coins in a jar beneath the counter.
+
+- id: npc.citizen_mara.quest_archive
+  entity: citizen_mara
+  topic: quest_log
+  text: >
+    Give the melted coin to Lysa for identification. She says the metal may come from the old Veyr burial ground.
+  
