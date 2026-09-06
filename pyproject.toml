@@ -16,6 +16,10 @@ dependencies = [
     "pyyaml>=6.0.3",
 ]
 
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [tool.pytest.ini_options]
 markers = [
     "integration: requires an external service (e.g. a local Ollama daemon) and is excluded from the default CI run",

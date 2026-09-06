@@ -1,0 +1,410 @@
+- id: who_is_jordan
+  query:  Who is Jordan?
+  relevant_ids: 
+  - npc.magister_jordan.origin
+
+- id: where_mira_from
+  query: Where is Mira from?
+  relevant_ids:
+  - npc.guardian_mira.origin
+
+- id: who_was_guard_of_the_caravan
+  query: Who was caravan's guard
+  relevant_ids:
+  - npc.guardian_tomas.origin
+
+- id: why_jordan_hunts_black_knights
+  query: Why is Magister Jordan hunting the Black Knights?
+  relevant_ids:
+  - npc.magister_jordan.origin
+  - npc.magister_jordan.quest_log
+  - npc.magister_jordan.speech
+
+- id: jordan_birthplace
+  query: Where was Jordan born?
+  relevant_ids:
+  - npc.magister_jordan.origin
+
+- id: jordan_parents_fate
+  query: What happened to Jordan's parents?
+  relevant_ids:
+  - npc.magister_jordan.origin
+
+- id: jordan_journal_name
+  query: What were the Black Knights looking for in Jordan's father's journal?
+  relevant_ids:
+  - npc.magister_jordan.speech
+
+- id: jordan_raven_witness
+  query: Who else saw the silver raven seal that Jordan remembers?
+  relevant_ids:
+  - npc.magister_jordan.origin_clue
+
+- id: jordan_spy_instruction
+  query: What should someone do before confronting the Black Knight spy in camp?
+  relevant_ids:
+  - npc.magister_jordan.quest_log
+
+- id: drumor_origin
+  query: Where did Drumor come from?
+  relevant_ids:
+  - npc.magister_drumor.origin
+
+- id: drumor_unverified_story
+  query: What part of Drumor's story about the elves has he never personally verified?
+  relevant_ids:
+  - npc.magister_drumor.origin
+
+- id: drumor_ash_comparison
+  query: What two sources of ash should be compared to investigate the attacks?
+  relevant_ids:
+  - npc.magister_drumor.quest_log
+
+- id: drumor_letters
+  query: For whom did Drumor carry letters before he stopped?
+  relevant_ids:
+  - npc.magister_drumor.origin_clue
+
+- id: lysa_first_rumor
+  query: Who should be asked about who paid for the first rumor?
+  relevant_ids:
+  - npc.magister_drumor.speech
+
+- id: litrek_gate_guardian
+  query: Why did Litrek become a gate guardian?
+  relevant_ids:
+  - npc.guardian_litrek.origin
+
+- id: litrek_murloc_tokens
+  query: What tokens should be recovered from the murlocs?
+  relevant_ids:
+  - npc.guardian_litrek.quest_log
+
+- id: litrek_murloc_attitude
+  query: Does Litrek think murlocs are mindless?
+  relevant_ids:
+  - npc.guardian_litrek.speech
+
+- id: litrek_seal_decision
+  query: What did Litrek do with the silver raven seal found near the east gate?
+  relevant_ids:
+  - npc.guardian_litrek.origin_clue
+
+- id: eva_moontear
+  query: Why did Eva return to the abandoned river chapel?
+  relevant_ids:
+  - npc.priest_eva.origin
+
+- id: eva_leaves_constraint
+  query: How many Moontear leaves must be brought to Eva, and what must not be cut?
+  relevant_ids:
+  - npc.priest_eva.quest_log
+
+- id: eva_veyr_prayer_book
+  query: Where did Eva see the raven seal associated with Veyr?
+  relevant_ids:
+  - npc.priest_eva.speech
+
+- id: eva_black_tree
+  query: What does Eva think caused the Moontear tree to turn black?
+  relevant_ids:
+  - npc.priest_eva.origin_clue
+
+- id: arden_bridge_patrol
+  query: Who ordered Arden away from the northern bridge?
+  relevant_ids:
+  - npc.guardian_arden.origin
+
+- id: arden_supply_chest
+  query: What does Arden need to find at the northern bridge?
+  relevant_ids:
+  - npc.guardian_arden.quest_log
+
+- id: arden_veyr_child
+  query: Who was traveling with Captain Veyr when he crossed the bridge?
+  relevant_ids:
+  - npc.guardian_arden.speech
+
+- id: arden_lysa_argument
+  query: What did Lysa call Captain Veyr during their argument?
+  relevant_ids:
+  - npc.guardian_arden.origin_clue
+
+- id: mira_brother
+  query: What happened to Mira's brother?
+  relevant_ids:
+  - npc.guardian_mira.origin
+
+- id: mira_escort
+  query: Whom must Mira escort to the chapel?
+  relevant_ids:
+  - npc.guardian_mira.quest_log
+
+- id: mira_knife
+  query: What did the murloc chief return to Mira?
+  relevant_ids:
+  - npc.guardian_mira.speech
+
+- id: mira_hooded_woman
+  query: Who did Mira see meeting Drumor by the ferry?
+  relevant_ids:
+  - npc.guardian_mira.origin_clue
+
+- id: tomas_caplin_fire
+  query: How did Tomas survive the fire in Caplin?
+  relevant_ids:
+  - npc.guardian_tomas.origin
+
+- id: tomas_black_key
+  query: What object does Jordan believe may open the Ashen Hand vault?
+  relevant_ids:
+  - npc.guardian_tomas.quest_log
+
+- id: tomas_naming_nere
+  query: What name did the attackers call for in Caplin?
+  relevant_ids:
+  - npc.guardian_tomas.speech
+
+- id: tomas_lysa_identity
+  query: Why did Tomas think Lysa was an elf?
+  relevant_ids:
+  - npc.guardian_tomas.origin_clue
+
+- id: lysa_mission
+  query: Why did Lysa come to Dion?
+  relevant_ids:
+  - npc.priest_lysa.origin
+
+- id: lysa_fire_evidence
+  query: What evidence does Lysa use to connect the fire at Caplin with the elven watchtower?
+  relevant_ids:
+  - npc.priest_lysa.speech
+
+- id: lysa_ash_delivery
+  query: Where should Eva's ash samples be delivered?
+  relevant_ids:
+  - npc.priest_lysa.quest_log
+
+- id: lysa_ashen_hand
+  query: What does Lysa say the Ashen Hand does for frightened towns?
+  relevant_ids:
+  - npc.priest_lysa.origin_clue
+
+- id: narek_key_mark
+  query: What should be translated to identify the clan that financed the Ashen Hand?
+  relevant_ids:
+  - npc.priest_narek.quest_log
+
+- id: narek_raven_symbol
+  query: Whose mark is the raven, according to Narek?
+  relevant_ids:
+  - npc.priest_narek.speech
+
+- id: narek_hidden_records
+  query: Where did Narek find the Veyr clan records?
+  relevant_ids:
+  - npc.priest_narek.origin_clue
+
+- id: narek_nera_record
+  query: What child's name appears in the records found by Narek?
+  relevant_ids:
+  - npc.priest_narek.origin_clue
+
+- id: sela_refugees
+  query: What should Sela ask the refugees about Nera?
+  relevant_ids:
+  - npc.priest_sela.quest_log
+
+- id: sela_bell_clapper
+  query: What did Nera give Sela?
+  relevant_ids:
+  - npc.priest_sela.speech
+
+- id: sela_veyr_father
+  query: Whose daughter does Sela believe Nera is?
+  relevant_ids:
+  - npc.priest_sela.origin_clue
+
+- id: sela_caplin_memory
+  query: Why did Nera refuse to speak after Caplin fell?
+  relevant_ids:
+  - npc.priest_sela.origin
+
+- id: joren_trade
+  query: What did Joren's family trade with Caplin?
+  relevant_ids:
+  - npc.citizen_joren.origin
+
+- id: joren_carts
+  query: How many empty grain carts did a Black Knight buy before the fire?
+  relevant_ids:
+  - npc.citizen_joren.speech
+
+- id: joren_wheel_pin
+  query: What should be searched for in the burned caravan yard?
+  relevant_ids:
+  - npc.citizen_joren.quest_log
+
+- id: joren_courier_letter
+  query: To whom was the courier's letter addressed?
+  relevant_ids:
+  - npc.citizen_joren.origin_clue
+
+- id: mara_key_customer
+  query: What did the customer leave under Mara's counter?
+  relevant_ids:
+  - npc.citizen_mara.quest_log
+
+- id: mara_veyr_scar
+  query: What identifying mark did the key customer have?
+  relevant_ids:
+  - npc.citizen_mara.speech
+
+- id: mara_customer_route
+  query: Where did Mara send the customer with Captain Veyr's scar?
+  relevant_ids:
+  - npc.citizen_mara.origin_clue
+
+- id: bram_clapper_key
+  query: Why was the chapel bell's clapper important?
+  relevant_ids:
+  - npc.citizen_bram.speech
+
+- id: bram_hidden_compartment
+  query: What might be hidden in the old bell molds?
+  relevant_ids:
+  - npc.citizen_bram.quest_log
+
+- id: bram_veyr_metal
+  query: What was the missing chapel bell made from, according to Bram?
+  relevant_ids:
+  - npc.citizen_bram.origin
+
+- id: olwen_census
+  query: Which page is missing from Caplin's census?
+  relevant_ids:
+  - npc.citizen_olwen.origin
+
+- id: olwen_veyr_children
+  query: What does Olwen's archive say about the Veyr clan and Nera?
+  relevant_ids:
+  - npc.citizen_olwen.speech
+
+- id: olwen_witness_mark
+  query: Where did Olwen see the silver raven seal?
+  relevant_ids:
+  - npc.citizen_olwen.origin_clue
+
+- id: kell_tunnel
+  query: What does Kell's old map show beneath Caplin?
+  relevant_ids:
+  - npc.citizen_kell.origin
+
+- id: kell_tunnel_contents
+  query: What did the Ashen Hand allegedly move through the tunnel?
+  relevant_ids:
+  - npc.citizen_kell.quest_log
+
+- id: kell_crossed_route
+  query: Which route did Captain Veyr cross out on Kell's map?
+  relevant_ids:
+  - npc.citizen_kell.speech
+
+- id: kell_apprentice
+  query: Who was the hooded courier seen by Mira?
+  relevant_ids:
+  - npc.citizen_kell.origin_clue
+  - npc.guardian_mira.origin_clue
+
+- id: nela_murloc_offerings
+  query: What should be done with the murloc offerings?
+  relevant_ids:
+  - npc.citizen_nela.quest_log
+
+- id: nela_black_robes
+  query: Whom do the murlocs fear more than the guardians?
+  relevant_ids:
+  - npc.citizen_nela.speech
+
+- id: nela_silver_oil
+  query: Where did the silver oil on the Moontear root seem to come from?
+  relevant_ids:
+  - npc.citizen_nela.origin_clue
+
+- id: murloc_stolen_items
+  query: What did the black men take from the murlocs?
+  relevant_ids:
+  - npc.murloc.speech
+
+- id: murloc_hidden_tunnel
+  query: What must happen before the murloc tribe reveals the hidden river tunnel?
+  relevant_ids:
+  - npc.murloc.quest_log
+
+- id: murloc_veyr_food
+  query: Who used to leave food for the murloc tribe?
+  relevant_ids:
+  - npc.murloc.origin_story
+
+- id: litrek_nera_cart
+  query: How did Nera reach Dion, according to Litrek's memory?
+  relevant_ids:
+  - npc.guardian_litrek.origin_memory
+
+- id: eva_protect_child
+  query: What did Captain Veyr ask Eva to do?
+  relevant_ids:
+  - npc.priest_eva.origin_memory
+
+- id: nera_evidence_chain
+  query: Which clues connect Nera to Captain Veyr?
+  relevant_ids:
+  - npc.priest_sela.speech
+  - npc.priest_sela.origin_clue
+  - npc.citizen_olwen.speech
+  - npc.guardian_arden.speech
+  - npc.priest_narek.origin_clue
+
+- id: silver_raven_network
+  query: Which characters mention seeing or finding a silver raven seal?
+  relevant_ids:
+  - npc.magister_jordan.origin_clue
+  - npc.guardian_litrek.origin_clue
+  - npc.priest_eva.speech
+  - npc.citizen_olwen.origin_clue
+
+- id: moontear_investigation
+  query: What evidence links the Moontear tree, the chapel, and the Ashen Hand?
+  relevant_ids:
+  - npc.priest_eva.origin
+  - npc.priest_eva.origin_clue
+  - npc.citizen_nela.origin_clue
+  - npc.guardian_mira.quest_log
+
+- id: veer_and_ashen_hand
+  query: What evidence suggests Captain Veyr was connected to the Ashen Hand but later opposed it?
+  relevant_ids:
+  - npc.priest_lysa.origin_clue
+  - npc.guardian_arden.origin_clue
+  - npc.priest_sela.origin_clue
+  - npc.priest_eva.origin_memory
+
+- id: caplin_attack_comparison
+  query: What clues suggest the attack on Caplin was made to look like an elven attack?
+  relevant_ids:
+  - npc.magister_drumor.origin
+  - npc.magister_drumor.quest_log
+  - npc.priest_lysa.speech
+  - npc.priest_lysa.origin
+
+- id: unrelated_weather
+  query: What was the weather like when Caplin burned?
+  relevant_ids: []
+
+- id: unrelated_dion_king
+  query: Who is the king of Dion?
+  relevant_ids: []
+
+- id: unrelated_veyr_age
+  query: How old was Captain Veyr when he joined the Ashen Hand?
+  relevant_ids: []
