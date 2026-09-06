@@ -5,5 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "anthropic>=0.69.0",
+    "fastembed>=0.5.1",
+    "numpy>=2.0",
+    "ollama>=0.4.7",
+    "onnxruntime<1.24",
     "pydantic>=2.13.5",
+    "python-dotenv>=1.1.1",
+    "pytest>=9.1.1",
+    "pyyaml>=6.0.3",
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: requires an external service (e.g. a local Ollama daemon) and is excluded from the default CI run",
 ]
