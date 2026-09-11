@@ -10,3 +10,4 @@ def test_context_precision():
     case = EvalCase(id='x', query='x', relevant_ids=['origin', 'quest_log', 'speech'])
     retrieved = ['origin', 'X', 'speech', 'Y', 'quest_log']
     assert calculate_context_precision(case, retrieved) == 0.756
+

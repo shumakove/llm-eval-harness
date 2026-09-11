@@ -5,7 +5,7 @@ def calculate_context_recall(case: EvalCase, retreived_ids: list[str]) -> float 
     b = set(case.relevant_ids)
     if len(case.relevant_ids) == 0:
         return None
-    return len(a & b) / len (b)
+    return round(len(a & b) / len (b), 3)
 
 def calculate_context_precision(case: EvalCase, retreived_ids: list[str]) -> float | None:
     if len(case.relevant_ids) == 0:

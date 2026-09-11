@@ -22,16 +22,22 @@ one of them is visible without measuring it deliberately.
 
 ## What this catches
 
-Filled from the first full run against the reference dataset. Until then, empty on purpose.
+Filled per row as each metric layer produces a real run. Retrieval is measured;
+generation and operations are not implemented yet, so those rows stay empty on purpose.
 
 | Failure mode | Detected by | Baseline | Current |
 |---|---|---|---|
-| Retrieved context misses the evidence | `context_recall` | — | — |
-| Evidence retrieved but ranked low | `context_precision` | — | — |
+| Retrieved context misses the evidence | `context_recall` | — | 0.948 |
+| Evidence retrieved but ranked low | `context_precision` | — | 0.836 |
 | Claims not supported by context | `faithfulness` | — | — |
 | Answer drifts off the question | `answer_relevancy` | — | — |
 | Silent cost or latency regression | `cost_p95`, `latency_p95` | — | — |
 | Model became evasive after a prompt change | `refusal_rate` | — | — |
+
+Retrieval numbers are from a single local run against the full 79-case golden set
+(76 scored, 3 excluded as intentionally unrelated queries), `EmbeddingRetriever` on
+`all-MiniLM-L6-v2`. No baseline exists yet — run versioning and comparison are not
+built (see [Project status](#project-status)), so "Current" is the only number there is.
 
 ---
 
@@ -156,7 +162,7 @@ a bad assumption.
 
 ## Project status
 
-- [ ] Metric layer: retrieval (`context_recall`, `context_precision`)
+- [x] Metric layer: retrieval (`context_recall`, `context_precision`)
 - [ ] Metric layer: generation (`faithfulness`, `answer_relevancy`)
 - [ ] Metric layer: operations (cost, latency, refusal rate)
 - [ ] Judge calibration and κ gate
