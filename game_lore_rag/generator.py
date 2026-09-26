@@ -1,8 +1,10 @@
+import os
 from abc import ABC, abstractmethod
 
 from anthropic import Anthropic
 from dotenv import load_dotenv
 from ollama import Client as OllamaClient
+from openai import OpenAI
 
 from game_lore_rag.retriever import Document
 
@@ -54,3 +56,23 @@ class OllamaGenerator(Generator):
             ],
         )
         return response["message"]["content"]
+
+
+class AnyModelGenerator(Generator):
+    def __init__(self, model: str):
+        load_dotenv()
+        self.client = OpenAI(
+            base_url="https://anymodel.org/v1",
+            api_key=os.environ["ANYMODEL_API_KEY"],
+        )
+        self.model = model
+
+    def generate(self, query: str, context: list[Document]) -> str:
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": _build_user_message(query, context)},
+            ],
+        )
+        return response.choices[0].message.content
